@@ -61,7 +61,7 @@ public class ApplicationController {
         if(application.getPerson() == null){
             return new Response(false, "The identity of a person is mandatory", null);
         }
-        return new Response(true,git"Application created!!!",applicationService.createApplication(application));
+        return new Response(true,"Application created!!!",applicationService.createApplication(application));
     }
     @DeleteMapping(path = "/{id}")
     public Response deleteApplication(@PathVariable Long id){
