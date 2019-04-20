@@ -1,0 +1,19 @@
+GET
+localhost:8080/api/applications
+GET
+localhost:8080/api/applications/{id}
+GET
+localhost:8080/api/applications/byPerson/{id}
+POST
+localhost:8080/api/applications + body
+DELETE
+localhost:8080/api/applications/{id}
+
+GET
+localhost:8080/api/person
+GET
+localhost:8080/api/person/{id}
+POST
+localhost:8080/api/person + body
+DELETE
+localhost:8080/api/person/{id}
